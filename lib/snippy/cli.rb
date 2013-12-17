@@ -1,6 +1,6 @@
 require "thor"
-require "snippy/git_tasks"
-require "snippy/apache_tasks"
+require "snippy/git"
+require "snippy/apache"
 
 module Snippy
   class Cli < Thor
