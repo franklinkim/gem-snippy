@@ -1,5 +1,5 @@
 require "thor"
-require "apache"
+require "snippy/apache"
 
 module Snippy
   class Cli < Thor
