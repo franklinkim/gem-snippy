@@ -7,10 +7,10 @@ module Snippy
     class_option :verbose, :type => :boolean
 
     desc "apache SUBCOMMAND ...ARGS", "Apache shortcuts and helper."
-    subcommand "apache", ApacheTasks
+    subcommand "apache", Apache
 
     desc "git SUBCOMMAND ...ARGS", "Git shortcuts and helper."
-    subcommand "git", GitTasks
+    subcommand "git", Git
 
   end
 end
