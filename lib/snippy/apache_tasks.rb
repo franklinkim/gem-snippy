@@ -1,7 +1,7 @@
 require "thor"
 
 module Snippy
-  class Apache < Thor
+  class ApacheTasks < Thor
 
     desc "certificate FILENAME", "Create self signed openssl certificate."
     def certificate(filename)
