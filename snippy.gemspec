@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = Snippy::VERSION
   spec.authors       = ["franklin"]
   spec.email         = ["franklin@weareinteractive.com"]
-  spec.description   = %q{Gem with some useful snippets.}
-  spec.summary       = %q{Snippet library.}
+  spec.description   = %q{Gem with some useful command line tools.}
+  spec.summary       = %q{Command line snippets.}
   spec.homepage      = "http://rubygems.org/gems/snippy"
   spec.license       = "MIT"
 

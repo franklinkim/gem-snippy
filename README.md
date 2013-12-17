@@ -1,6 +1,6 @@
 # snippy
 
-> Gem with some useful snippets.
+> Gem with some useful command line tools.
 
 ## Installation
 
@@ -10,10 +10,23 @@ $ gem install snippy
 
 ## Usage
 
-The following tasks are available trough the command line.
+```
+$ snippy
+Commands:
+  snippy apache SUBCOMMAND ...ARGS  # Snippets & Tools for apache
+  snippy help [COMMAND]             # Describe available commands or one specific command
+
+Options:
+  [--verbose]
+```
+
+### Apache
 
 ```
+$ snippy apache
 Commands:
+  snippy apache certificate FILENAME  # Create self signed openssl certificate.
+  snippy apache help [COMMAND]        # Describe subcommands or one specific subcommand
 ```
 
 ## Development
@@ -37,4 +50,4 @@ In lieu of a formal styleguide, take care to maintain the existing coding style.
 5. Create new Pull Request
 
 ## License
-Copyright (c) 2013 We Are Interactive.
+Copyright (c) 2013 franklin under the MIT license.
