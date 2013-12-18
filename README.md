@@ -35,9 +35,9 @@ When developing you can use the given `rake` tasks:
 
 ```
 $ rake -T
-rake build    # Build ccextension-0.1.1.gem into the pkg directory.
-rake install  # Build and install ccextension-0.1.1.gem into system gems.
-rake release  # Create tag v0.1.1 and build and push ccextension-0.1.1.gem to Rubygems```
+rake build    # Build snippy-0.1.1.gem into the pkg directory.
+rake install  # Build and install snippy-0.1.1.gem into system gems.
+rake release  # Create tag v0.1.1 and build and push snippy-0.1.1.gem to Rubygems```
 ```
 
 ## Contributing
