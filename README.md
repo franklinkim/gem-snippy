@@ -1,5 +1,7 @@
 # snippy
 
+[![Gem Version](https://badge.fury.io/rb/snippy.png)](http://badge.fury.io/rb/snippy)
+
 > Gem with some useful command line tools.
 
 ## Installation
